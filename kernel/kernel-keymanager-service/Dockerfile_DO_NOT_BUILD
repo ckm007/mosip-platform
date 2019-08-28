@@ -1,4 +1,4 @@
-ARG docker_registry_url=hcvdocker.azurecr.io
+ARG docker_registry_url=mosipstaging.azurecr.io
 FROM ${docker_registry_url}/kernel-keymanager-softhsm:0.1
 
 # can be passed during Docker build as build time environment for github branch to pickup configuration from.
